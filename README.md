@@ -21,20 +21,20 @@ Not : Sınıflara ait nitelik ve davranışların belirtilmesine gerek yoktur.
 
 Aşağıda, istenen tasarımın UML programı kullanılarak (StarUML) gerçekleştirilmiş hali bulunmaktadır.
 
-Projeye ait ekran görüntüsünü paylaştıktan sonra tasarımda ifade edilmek istenenleri de resmin altına açıklama satırı olarak yazacağım.
+Projeye ait ekran görüntüsünü paylaştıktan sonra, tasarımda ifade edilmek istenenleri de resmin altına açıklama satırı olarak yazacağım.
 
 ![github](uml-design.png)
 
 1. **University Class**
 
-Yukarıda ki UML Design'ı gerçek hayatta ki bir üniversitenin kurulumunun aşamaları gibidir.
+Yukarıda ki UML Design'ı, gerçek hayatta ki bir üniversitenin kurulumunun aşamaları gibidir.
 
-Gerçek hayatta da bir üniversite kurulduğunda, ana binaya yani merkeze bağlı olarak
+Gerçek hayatta da bir üniversite kurulduğunda, ana binaya, yani merkeze bağlı olarak
 sınıflar, departmanlar, ve departmanlara bağlı olarak personellerin çalışabilecekleri bir ofis kurulur.
 
 Bu zorunluluktan dolayı University Class'ına bağlı olan bu class'lar UML Design'da Composition olarak gösterilmiştir.
 
-Yani University class'ı oluşturulur oluşturulmaz bu class'a bağlı class'ların da otomatik olarak oluşturulması gerekmektedir.
+Yani University class'ı oluşturulur oluşturulmaz bu class'a bağlı class'ların da otomatik olarak oluşturulması gerekliliği Composition bağlılığıyla belirtilmiştir.
 
 2. **Interface**
 
