@@ -3,7 +3,7 @@
 
 **Bizden İstenen Design(Tasarım)**
 
-````
+```
 1 - Üniversiteye ait sınıflıklar, çalışma ofisleri ve departmanlar vardır.
 
 2 - Departmanlara ait ofisler vardır.
@@ -42,4 +42,3 @@ Bize verilen talebin 3.maddesinde çalışanların preföser veya memur olabilme
 Üniversite bünyesinde çalışan herhangi bir kimse için ortak bir interface oluşturulmuş ve
 kaydı yapılan kişinin title'ına göre ilgili class'ın interface'den nitelik ve davranışları alarak
 ilgili class'larda işlemler yapılabilmesi sağlanmıştır.
-
